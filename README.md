@@ -4,8 +4,10 @@ This is the project [Positioning and floating elements from the Odin Project](ht
 
 ## Getting Started
 
+You can see the webpage [here](https://iaderdor.github.io/position-and-floating-elements/index.html)
 
-### Installi## Authors
+
+## Authors
 
 * **Ismael Aderdor** - *Initial work* - [iaderdor](https://github.com/iaderdor)
 
@@ -13,10 +15,4 @@ This is the project [Positioning and floating elements from the Odin Project](ht
 ## License
 
 This project is licensed under the MIT License - see the [LICENCE.md](LICENCE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
