@@ -4,7 +4,9 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
@@ -22,8 +24,8 @@ nav {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: .3rem 1rem;
-  border-bottom: 1px solid #DDDDDD;
+  padding: 0.3rem 1rem;
+  border-bottom: 1px solid #dddddd;
 }
 
 .flex {
@@ -35,6 +37,10 @@ nav {
 .left-nav {
   display: flex;
   align-items: center;
+}
+
+.left-nav > * {
+  margin-right: 1rem;
 }
 
 .center-nav {
@@ -50,7 +56,7 @@ nav {
 }
 
 #title {
-  font-family: 'Grenze Gotisch', cursive;
+  font-family: "Grenze Gotisch", cursive;
   font-variant: small-caps;
   font-size: 1.5rem;
   padding: 0;
@@ -64,14 +70,15 @@ nav {
 }
 
 #article-section p {
-  align
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .btn {
   border: 1px solid black;
-  border-radius: .2rem;
-  padding: .5rem;
-  margin: 0 .15rem;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  margin: 0 0.15rem;
 }
 
 .btn-info {
@@ -80,7 +87,109 @@ nav {
   font-family: sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: white;
 }
 
+/* article */
+
+.container {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caption {
+  color: #888888;
+  max-width: 40rem;
+  align-self: center;
+  margin-bottom: 2rem;
+}
+
+.caption-author {
+  font-size: 0.8rem;
+}
+
+.caption-author a:link {
+  color: #888888;
+  text-decoration: none;
+}
+
+.caption-author a:visited {
+  color: #888888;
+  text-decoration: none;
+}
+
+.caption-author a:hover {
+  color: #888888;
+  text-decoration: none;
+}
+
+.caption-author a:visited {
+  color: #888888;
+  text-decoration: none;
+}
+
+.author {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.author a:link,
+.author a:visited {
+  color: black;
+  text-decoration: underline #bbbbbb solid;
+}
+
+.author a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.date {
+  font-family: sans-serif;
+  font-size: 0.7rem;
+}
+
+ul.social {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+}
+
+ul.social > * {
+  font-size: 1rem;
+  margin: 0 0 0 1rem;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #eeeeee;
+  padding: 0.2rem;
+}
+
+.article-header {
+  justify-content: space-between;
+}
+
+.article-content {
+  max-width: 35rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.article-editions {
+  max-width: 35rem;
+  font-size: 0.7rem;
+  color: #444444;
+}
+
+.article-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
