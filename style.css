@@ -34,6 +34,12 @@ nav {
   align-items: baseline;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
 .left-nav {
   display: flex;
   align-items: center;
@@ -70,7 +76,7 @@ nav {
 }
 
 #article-section p {
-  font-family: sans-serif;
+  font-family: "Commissioner", sans-serif;
   font-weight: bold;
 }
 
@@ -84,10 +90,10 @@ nav {
 .btn-info {
   background-color: #567b95;
   border-color: #326891;
-  font-family: sans-serif;
+  font-family: "Commissioner", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: white;
 }
 
@@ -133,7 +139,7 @@ nav {
 }
 
 .author {
-  font-family: sans-serif;
+  font-family: "Commissioner", sans-serif;
   font-size: 0.8rem;
   font-weight: 800;
 }
@@ -150,7 +156,7 @@ nav {
 }
 
 .date {
-  font-family: sans-serif;
+  font-family: "Commissioner", sans-serif;
   font-size: 0.7rem;
 }
 
@@ -192,4 +198,45 @@ ul.social > * {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+/* Footer */
+
+footer {
+  margin: 0 4rem;
+  font-size: 0.7rem;
+}
+
+.horizontal-line {
+  width: 100%;
+}
+
+.fake-sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Commissioner", sans-serif;
+}
+
+ul.fake-section {
+  list-style: none;
+  padding: 0;
+}
+
+ul.fake-section > * {
+  font-size: 0.8rem;
+  margin: 0.8rem 0 0 0;
+}
+
+li.fake-section-title {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.footest {
+  display: flex;
+  flex-direction: row;
 }
