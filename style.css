@@ -183,8 +183,9 @@ ul.social > * {
 }
 
 .article-content {
+  margin: 1rem auto;
   max-width: 35rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.8rem;
 }
 
@@ -198,6 +199,38 @@ ul.social > * {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+h2.important {
+  margin: 1rem auto;
+  max-width: 35rem;
+  font-size: 1.2rem;
+}
+
+/* Infographic */
+
+.infographic .caption {
+  font-size: 0.8rem;
+}
+
+.infographic .grid {
+  display: grid;
+  grid-template: 1fr 1fr / repeat(4, 1fr);
+  grid-gap: 0.5rem;
+  font-family: "Commissioner", sans-serif;
+  font-size: 0.8rem;
+}
+
+.infographic .tile {
+  max-width: 240px;
+}
+
+.infographic .description strong {
+  font-variant: small-caps;
+}
+
+.infographic img {
+  max-width: 240px;
 }
 
 /* Footer */
