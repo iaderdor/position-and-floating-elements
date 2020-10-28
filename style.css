@@ -254,6 +254,68 @@ footer {
   width: 100%;
 }
 
+.news {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.more-section {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  grid-gap: 4rem .5rem;
+  max-width: 800px:
+}
+
+.most-popular {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  max-width: 300px;
+  padding-left: 2rem;
+}
+
+.news-title {
+  font-family: 'Commissioner', sans-serif;
+  padding: 1rem 0;
+  border-top: 1px solid black;
+}
+
+.most-popular-element {
+  border-top: 1px solid #dddddd;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.more-section-element {
+  display: flex;
+  flex-direction: column;
+}
+.more-section-element a > img {
+  width: 240px;
+  height: 180px;
+  object-fit: cover;
+}
+
+#special {
+  object-position: 0% 0%;
+}
+
+#special2 {
+  object-position: 50% 60%;
+}
+
+.credits {
+  margin-right: 1.5rem;
+  align-self: flex-end;
+}
+
+.more-section-article {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
+
 .fake-sections {
   display: flex;
   flex-direction: row;
