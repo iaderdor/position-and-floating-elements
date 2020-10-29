@@ -259,6 +259,16 @@ footer {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
+  border-bottom: 2px solid #dddddd;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  margin: 1px auto 0 auto;
+  width: 100%;
 }
 
 .more-section {
@@ -326,6 +336,11 @@ footer {
   font-family: "Commissioner", sans-serif;
 }
 
+.important {
+  font-size: 1rem !important;
+  font-weight: 800;
+}
+
 ul.fake-section {
   list-style: none;
   padding: 0;
@@ -341,9 +356,24 @@ li.fake-section-title {
   font-weight: 800;
 }
 
+#subscribe {
+  border-left: 1px solid #dddddd;
+  padding-left: 1rem;
+}
+
+.subs-icon {
+  margin-right: 5px;
+}
+
+.t-icon {
+  font-family: 'Grenze Gotisch';
+}
+
 .footest {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 0 auto;
+  color: #555555;
+  font-family: "Commissioner", sans-serif;
 }
